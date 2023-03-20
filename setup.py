@@ -1,5 +1,6 @@
 from distutils.core import setup
 
+
 def parse_requirements(filename):
     with open(filename, "r") as file:
         lines = (line.strip() for line in file)
