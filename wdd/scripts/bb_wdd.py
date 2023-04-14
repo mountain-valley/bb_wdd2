@@ -9,6 +9,7 @@ import numpy as np
 from wdd.main import run_wdd
 
 def show_default_option(*args, **kwargs):
+
     return click.option(show_default=True, *args, **kwargs)
 
 
